@@ -1,6 +1,6 @@
-#Matemática Discreta, Estrutura de Dados e Algoritmos
+# Matemática Discreta, Estrutura de Dados e Algoritmos
 
-##Projeto 3
+## Projeto 3
 
 Considere um software, cujo desenvolvimento está sob sua responsabilidade, para controle de frotas de caminhões de entregas.
 
