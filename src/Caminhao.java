@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+
 import java.util.Queue;
 import java.util.Stack;
 
@@ -39,7 +40,6 @@ public class Caminhao {
 
     @Override
     public String toString() {
-        return "Caminhão placa " + placa +
-                " possui " + pontosDeEntrega.size() + " pontos de entrega com " + itemEntregas.size() + " item de entregas.";
+        return "<" + placa + ">";
     }
 }

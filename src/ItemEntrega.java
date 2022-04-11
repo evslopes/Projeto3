@@ -25,7 +25,7 @@ public class ItemEntrega {
 
     @Override
     public String toString() {
-        return "id:" + idItemEntrega + " " + nome;
+        return "<" + getNome() + ">";
     }
 
 

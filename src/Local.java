@@ -1,10 +1,9 @@
-import java.util.ArrayList;
 import java.util.Stack;
 
 public class Local {
     private int idLocal;
     private String nome;
-    private Stack<ItemEntrega> conjuntoDeItens; //
+    private Itens itens;
 
     public Local(int idLocal, String nome, Stack<ItemEntrega> conjuntoDeItens) {
         this.idLocal = idLocal;
@@ -27,18 +26,18 @@ public class Local {
         this.nome = nome;
     }
 
-    public Stack<ItemEntrega> getConjuntoDeItens() {
-        return conjuntoDeItens;
+    public Itens getItens() {
+        return itens;
     }
 
-    public void setConjuntoDeItens(Stack<ItemEntrega> conjuntoDeItens) {
-        this.conjuntoDeItens = conjuntoDeItens;
+    public void setItens(Itens itens) {
+        this.itens = itens;
     }
 
     @Override
     public String toString() {
-        return "local id = " + idLocal +
-                " " + nome +
-                ", possui os itens de entrega = " + conjuntoDeItens + '.';
+        return "<" + getNome() + ">";
     }
+
+
 }
